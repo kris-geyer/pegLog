@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "peglog.android.location.geyer.peglog1"
+        minSdkVersion 14
+        targetSdkVersion 28
+        versionCode 7
+        versionName "1.06"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:26.+'
+    implementation 'net.zetetic:android-database-sqlcipher:3.5.9@aar'
+    implementation 'com.itextpdf:itextg:5.5.10'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    implementation 'com.google.android.gms:play-services-location:12.0.1'
+    implementation 'ch.dissem.jabit:jabit-cryptography-spongy:2.0.4'
+}

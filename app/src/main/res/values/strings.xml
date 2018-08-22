@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PEG log</string>
+    <string name="study_info">This application collects and stores data about your current location. To stop data collection and delete all associated files, simply uninstall the application.  </string>
+    <string name="email">Email</string>
+    <string name="btn_check">report last data point</string>
+    <string name="btn_newP">Make new password</string>
+    <string name="tv_status">Status: </string>
+    <string name = "delete_files">Delete Files</string>
+    <string name="show_inst">Show instructions</string>
+    <string name="intro_message">
+"This app is a intended to be apart of a research effort. It identify where you are using GPS, Wi-Fi and cellular signals every three minutes. To see what data is being collected please just click on 'Report last data point'. This should report your last known: longitude, latitude, accuracy (meters) and a unix timestamp. To stop the data collection you can simply uninstall the app, all the collected data will be deleted. The app requires you to enter a password in order to secure the data that is being collected. Without this password it will be phenomenally difficult to access your location records
+
+The app requires a few permissions of you. Without the location permission, the location won't be able to log your location. The other permission will help the app run but is optional. This permission allows us to identify the signals, that your phone recieves. This allows us to know what caused problems with the location logging. I.e. You didn't have any connection to cellular connection enabling this permission would be very helpful however it is not essential
+
+You can revisit this message by pressing 'Show instructions'
+
+If you are willing to continue to participate please click OK. Otherwise, please simply uninstall the app"</string>
+</resources>
