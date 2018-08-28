@@ -2,9 +2,7 @@
 Serverless location logging app that securely stores location data over a duration of multiple weeks
 
 # whitelisting
-With Android 6+ (Marshmallow), a new feature called doze mode was introduced, which can restrict activity on the device after certain periods of inactivity. 
-You can choose to whitelist peglog which does not bypass doze mode but occasionally provides logging windows in which to work. 
-to whitelist the appplicationm perform the following steps. This helps reduces the impact of battery optimisation techniques
+To whitelist the appplicationm perform the following steps. This helps reduces the impact of battery optimisation techniques.
 
 1. Go to Settings → Battery
 
