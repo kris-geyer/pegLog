@@ -2,7 +2,7 @@
 Serverless location logging app that securely stores location data over a duration of multiple weeks
 
 # whitelisting
-To whitelist the appplicationm perform the following steps. This helps reduces the impact of battery optimisation techniques.
+To whitelist the appplication perform the following steps. This helps reduces the impact of battery optimisation techniques.
 
 1. Go to Settings → Battery
 
