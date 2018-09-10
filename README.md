@@ -1,5 +1,5 @@
 # pegLog
-Serverless location logging app that securely stores location data over a duration of multiple weeks
+Serverless location logging app that securely stores location data. Primarily developed to assist with psychological research and behavioural science more generally. 
 
 # customisation 
 Which location data source (GPS, Wi-Fi, etc.) is used by default, and the frequency of
