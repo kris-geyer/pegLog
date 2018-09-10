@@ -1,6 +1,11 @@
 # pegLog
 Serverless location logging app that securely stores location data over a duration of multiple weeks
 
+# customisation 
+Which location data source (GPS, Wi-Fi, etc.) is used by default, and the frequency of
+location updates can be customised by modifying the Constants file. Following customisation, the 
+application can then be redistributed on the Google Play store.
+
 # whitelisting
 To whitelist the appplication perform the following steps. This helps reduces the impact of battery optimisation techniques.
 
