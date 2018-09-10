@@ -21,4 +21,4 @@ To whitelist the appplication perform the following steps. This helps reduces th
 
 6. Optimise should be selected by default.
 
-7. Select "Don't Optimise", and press "Done" below.
+7. Select "Don't Optimise", and press "Done".
