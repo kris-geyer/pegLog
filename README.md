@@ -2,7 +2,7 @@
 Serverless location logging app that securely stores location data. Primarily developed to assist with psychological research and behavioural science more generally. 
 
 # bugs 
-Known issues when logging location data when running Android 8.1. Issues affect many applications of this nature. Running on android version 8.0.0 and 9.0.0 remain fine. Fix pending. 
+Known issues when logging location data via  Android 8.1. Issues affect many applications of this nature. Running on Android version 8.0.0 and 9.0.0 remain fine. Fix pending. 
 
 # customisation 
 Which location data source (GPS, Wi-Fi, etc.) is used by default, and the frequency of
