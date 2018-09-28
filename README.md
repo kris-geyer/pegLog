@@ -1,10 +1,6 @@
 # pegLog
 Serverless location logging app that securely stores location data. Primarily developed to assist with psychological research and behavioural science more generally. 
 
-# bugs 
-No issues when collecting data from devices running Android OS versions 8.0.0 and 9.0.0 remain fine. However, some issues are affecting the collection of data from devices running Android 8.1 specifically. These issues affect many applications that rely on background operations. 
-Fix for 8.1 pending.
-
 # customisation 
 Which location data source (GPS, Wi-Fi, etc.) is used by default, and the frequency of
 location updates can be customised by modifying the Constants file. Following customisation, the 
@@ -26,3 +22,12 @@ To whitelist the appplication perform the following steps. This helps reduces th
 6. Optimise should be selected by default.
 
 7. Select "Don't Optimise", and press "Done".
+
+# bugs/known issues 
+Android OS 8.1 interferes with data collection. These issues affect many applications that rely on background operations and may be the result of a bug within this version of Android OS, which could be patched shortly. 
+
+This does not affect the majoirty of devices running Android OS versions 8.0.0 and 9.0.0.  
+
+Users should upgrade to Android 9.0.0 if possible.
+
+We are working on a fix.
