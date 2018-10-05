@@ -27,12 +27,12 @@ To whitelist the appplication perform the following steps. This helps reduces th
 
 Report bugs or functionality issues to k.geyer2@lancaster.ac.uk
 
-Android SDK 8.1:
 
-Android SDK version 8.1 interferes with data collection. These issues affect many applications that rely on background operations and may be the result of a bug within this version of Android, which could be patched shortly. 
+
+Android SDK version 8.1 interferes with data collection and affects many applications that rely on background operations. This may be the result of a bug in this version of Android, which may be patched shortly. 
 
 This does not affect the majoirty of devices running Android SDK versions 8.0.0 and 9.0.0.  
 
-Users should upgrade to Android 9.0.0 if possible.
+We are working on a fix , but users should upgrade to SDK 9.0.0 if possible.
 
-We are working on a fix.
+
