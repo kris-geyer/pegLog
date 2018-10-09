@@ -27,6 +27,7 @@ To whitelist the appplication perform the following steps. This helps reduces th
 
 Report bugs or functionality issues to k.geyer2@lancaster.ac.uk
 
-No known issues with devices running Android SDK 4.0.0 - 8.0.0
+No known issues with devices running Android SDK 4.0.0 - 8.0.0 (including 8.1.0)
 
+09/10/2018
 We are currently working to ensure that the application is compatible with the latest SDK (9.0.0)
