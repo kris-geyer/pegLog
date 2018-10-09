@@ -27,12 +27,6 @@ To whitelist the appplication perform the following steps. This helps reduces th
 
 Report bugs or functionality issues to k.geyer2@lancaster.ac.uk
 
+No known issues with devices running Android SDK 4.0.0 - 8.0.0
 
-
-Android SDK version 8.1 appears to distrupt data collection and affects many applications that rely on background operations. This may be the result of a bug in this version of Android. 
-
-This does not affect the majority of devices, which currently run Android SDK 8.0.0 or earlier. 
-
-We are working on a fix.
-
-
+We are currently working to ensure that the application is compatible with the latest SDK (9.0.0)
