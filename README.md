@@ -31,7 +31,7 @@ Report bugs or functionality issues to k.geyer2@lancaster.ac.uk
 
 Android SDK version 8.1 interferes with data collection and affects many applications that rely on background operations. This may be the result of a bug in this version of Android, which may be patched shortly. 
 
-This does not affect the majoirty of devices, which currently run Android SDK 8.0.0 or earlier. 
+This does not affect the majority of devices, which currently run Android SDK 8.0.0 or earlier. 
 
 We are working on a fix.
 
