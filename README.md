@@ -28,4 +28,4 @@ Report bugs or functionality issues to k.geyer2@lancaster.ac.uk
 
 No known issues with devices running Android SDK 4.0.0 - 8.0.0 (including 8.1.0)
 
-As of 09/10/2018 we are currently working to ensure that the application is fully compatible with the latest Android SDK (9.0.0). Note that very few devices run this SDK at present.
+As of 09/10/2018 we are currently working to ensure that the application is fully compatible with the latest Android SDK (9.0.0). Note that very few devices support this SDK at present.
