@@ -7,6 +7,8 @@ A Terms of Service and Privacy Policy is available <a href="https://psychsensorl
 
 Sample data and supplementary R-code for analysis are avaliable <a href="https://drive.google.com/open?id=1HYb_GsvGLqP8RWOQRV7co_tEamYsHooA">here</a>. 
 
+(password for encrypted data and error files=123456)
+
 # customisation 
 Which location data source (GPS, Wi-Fi, etc.) is used by default, and the frequency of
 location updates can be customised by modifying the Constants file. Following customisation, the 
