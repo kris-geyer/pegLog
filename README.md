@@ -5,6 +5,8 @@ Download a working version from the <a href="https://play.google.com/store/apps/
 
 A Terms of Service and Privacy Policy is available <a href="https://psychsensorlab.com/privacy-agreement-for-apps/">here</a>. 
 
+Sample data and supplementary R-code for analysis are avaliable <a href="https://drive.google.com/open?id=1HYb_GsvGLqP8RWOQRV7co_tEamYsHooA">here</a>. 
+
 # customisation 
 Which location data source (GPS, Wi-Fi, etc.) is used by default, and the frequency of
 location updates can be customised by modifying the Constants file. Following customisation, the 
