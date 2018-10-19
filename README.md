@@ -1,6 +1,8 @@
 # pegLog
 Serverless location logging app that securely stores location data. Primarily developed to assist with psychological research and behavioural science more generally. 
 
+Download a working version from the <a href="https://play.google.com/store/apps/details?id=peglog.android.location.geyer.peglog1">Google Play Store</a>. This version will provide a location update every 5 minutes.
+
 # customisation 
 Which location data source (GPS, Wi-Fi, etc.) is used by default, and the frequency of
 location updates can be customised by modifying the Constants file. Following customisation, the 
