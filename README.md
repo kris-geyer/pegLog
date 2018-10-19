@@ -3,6 +3,8 @@ Serverless location logging app that securely stores location data. Primarily de
 
 Download a working version from the <a href="https://play.google.com/store/apps/details?id=peglog.android.location.geyer.peglog1">Google Play Store</a>. This will provide a location update from the most accurate source (GPS, Wi-Fi, etc.) every 5 minutes.
 
+A Terms of Service and Privacy Policy is available <a href="https://psychsensorlab.com/privacy-agreement-for-apps/">here</a>. 
+
 # customisation 
 Which location data source (GPS, Wi-Fi, etc.) is used by default, and the frequency of
 location updates can be customised by modifying the Constants file. Following customisation, the 
