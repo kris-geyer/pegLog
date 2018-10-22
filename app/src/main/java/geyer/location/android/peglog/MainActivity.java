@@ -109,6 +109,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
         Button showInst = findViewById(R.id.btnShowInstructions);
         showInst.setOnClickListener(this);
 
+        Button pp = findViewById(R.id.btnPP);
+        pp.setOnClickListener(this);
+
         statusTV = findViewById(R.id.statusTV);
 
         //load the native libraries for the SQL cipher
@@ -159,6 +162,11 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 break;
             case R.id.btnShowInstructions:
                 informUser();
+                break;
+            case R.id.btnPP:
+                Uri uri = Uri.parse("https://psychsensorlab.com/privacy-agreement-for-apps/");
+                Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(launchBrowser);
                 break;
         }
     }

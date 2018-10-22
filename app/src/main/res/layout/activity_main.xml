@@ -43,6 +43,13 @@
         android:text="@string/show_inst"
         android:layout_gravity="center_horizontal"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnPP"
+        android:text="Privacy policy"
+        android:layout_gravity="center_horizontal"/>
+
 
     <TextView
         android:layout_width="wrap_content"
