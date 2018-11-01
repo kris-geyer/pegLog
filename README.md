@@ -33,5 +33,3 @@ To whitelist the appplication perform the following steps. This helps reduces th
 
 # bugs/known issues 
 Report bugs or functionality issues to k.geyer2@lancaster.ac.uk
-
-No known issues with devices running Android SDK 4.0.0 - 8.0.0
