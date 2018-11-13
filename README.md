@@ -14,6 +14,19 @@ Which location data source (GPS, Wi-Fi, etc.) is used by default, and the freque
 location updates can be customised by modifying the Constants file. Following customisation, the 
 application can then be redistributed on the Google Play store.
 
+# FAQs
+1. Why are location readings not recorded at exactly x minutes as specified?
+
+This is due to how Android OS currently implements its location system. While a location update can be requested every 5 minutes (for example), that's actually a suggestion rather than an imperative, and so the time interval between location points is never guaranteed. However, an exact timestamp of the recording is always reported alongside each reading. This allows researchers to monitor the exact duration between readings and/or compute related variables (e.g., speed) accurately.
+
+2. A specified time interval has passed, but no co-ordinates were logged. Why?
+
+There are several reasons this could happen.
+
+(a) The GPS system may have attempted to report it’s current location and timed out. This is likely to be the result of a poor or absent signal. As a result, the operating system will have been unable to provide data to PEG LOG. An error log will be generated in this instance.
+
+(b) On Android 6+ (Marshmallow), a new feature called ‘doze mode’ was introduced. This attempts to restrict activity on a device after certain periods of inactivity. Participants can choose to whitelist PEG LOG (see below), which can provide additional logging windows. 
+
 # whitelisting
 To whitelist the appplication perform the following steps. This helps reduces the impact of battery optimisation techniques.
 
