@@ -3,7 +3,7 @@ Serverless location logging app that securely stores location data. Primarily de
 
 Reference: 
 
-Geyer, K., Ellis, D. A. and Piwek, L. (online first) A simple location tracking app for psychological research. Behavior Research Methods <a href="https://link.springer.com/article/10.3758/s13428-018-1164-y">LINK</a>
+Geyer, K., Ellis, D. A. and Piwek, L. (online first) A simple location-tracking app for psychological research. Behavior Research Methods <a href="https://link.springer.com/article/10.3758/s13428-018-1164-y">LINK</a>
 
 Download a working version from the <a href="https://play.google.com/store/apps/details?id=peglog.android.location.geyer.peglog1">Google Play Store</a>. This will provide a location update from the most accurate source (GPS, Wi-Fi, etc.) every 5 minutes.
 
