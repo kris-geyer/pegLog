@@ -1,5 +1,5 @@
 # peg log
-Serverless location logging app that securely stores data. Primarily developed to assist with psychological research and behavioural science more generally. The app relies on <a href="https://developers.google.com/android/reference/com/google/android/gms/location/FusedLocationProviderApi">FuseLocationProvider</a> (Google API for Android).
+Serverless location logging app that securely stores data. Primarily developed to assist with psychological research and behavioural science more generally. The app relies on the <a href="https://developers.google.com/android/reference/com/google/android/gms/location/FusedLocationProviderApi">FuseLocationProvider</a> (Google Application Programming Interface (API) for Android).
 
 Reference: 
 
