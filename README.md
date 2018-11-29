@@ -1,5 +1,5 @@
 # peg log
-Serverless location logging app that securely stores location data. Primarily developed to assist with psychological research and behavioural science more generally. 
+Serverless location logging app that securely stores location data. Primarily developed to assist with psychological research and behavioural science more generally. The app relies on the (<ahref="https://developers.google.com/android/reference/com/google/android/gms/location/FusedLocationProviderApi">FuseLocationProvider</a>) (Google API for Android).
 
 Reference: 
 
@@ -9,7 +9,7 @@ Download a working version from the <a href="https://play.google.com/store/apps/
 
 A Terms of Service and Privacy Policy is available <a href="https://psychsensorlab.com/privacy-agreement-for-apps/">here</a>. 
 
-Sample data and supplementary R-code for analysis are avaliable <a href="https://drive.google.com/open?id=1HYb_GsvGLqP8RWOQRV7co_tEamYsHooA">here</a>. 
+Sample data and supplementary R-code for analysis are available <a href="https://drive.google.com/open?id=1HYb_GsvGLqP8RWOQRV7co_tEamYsHooA">here</a>. 
 
 (password for encrypted data and error files=123456)
 
@@ -27,12 +27,12 @@ This is due to how Android OS currently implements its location system. While a 
 
 There are several reasons this could happen.
 
-(a) The GPS system may have attempted to report it’s current location and timed out. This is likely to be the result of a poor or absent signal. As a result, the operating system will have been unable to provide data to PEG LOG. An error log will be generated in this instance.
+(a) The GPS system may have attempted to report the current location and timed out. This is likely to be the result of a poor or absent signal. As a result, the operating system will have been unable to provide data to PEG LOG. An error log will be generated in this instance.
 
 (b) On Android 6+ (Marshmallow), a new feature called ‘doze mode’ was introduced. This attempts to restrict activity on a device after certain periods of inactivity. Participants can choose to whitelist PEG LOG (see below), which can provide additional logging windows. 
 
 # whitelisting
-To whitelist the appplication perform the following steps. This helps reduces the impact of battery optimisation techniques.
+To whitelist the application perform the following steps. This helps reduces the impact of battery optimisation techniques.
 
 1. Go to Settings → Battery
 
