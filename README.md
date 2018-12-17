@@ -1,9 +1,7 @@
 # peg log
-Serverless location logging app that securely stores data. Primarily developed to assist with psychological research and behavioural science more generally. 
-
-The app relies on the <a href="https://developers.google.com/android/reference/com/google/android/gms/location/FusedLocationProviderApi">FuseLocationProvider</a> Application Programming Interface (API). This is referred to as an 'application' in the published paper.  
-
-Reference: 
+Serverless location logging app that securely stores data. Primarily developed to assist with psychological research and behavioural science more generally. The app relies on the <a href="https://developers.google.com/location-context/fused-location-provider/">FusedLocationProvider</a> Application Programming Interface (API) (shortened to read ‘application’ in the published paper). This manages underlying location technologies, such as GPS and Wi-Fi, which are built into the Android operating system. 
+ 
+Full Reference: 
 
 Geyer, K., Ellis, D. A. and Piwek, L. (online first). A simple location-tracking app for psychological research. Behavior Research Methods <a href="https://link.springer.com/article/10.3758/s13428-018-1164-y">LINK</a>
 
@@ -18,7 +16,7 @@ Sample data and supplementary R-code for analysis are available <a href="https:/
 # customisation 
 Which location data source (GPS, Wi-Fi, etc.) is used by default, and the frequency of
 location updates can be customised by modifying the Constants file. Following customisation, the 
-application can then be redistributed on the Google Play store.
+app can then be redistributed on the Google Play store.
 
 # FAQs
 1. Why are location readings not recorded at exactly x minutes as specified?
@@ -52,3 +50,6 @@ To whitelist the application perform the following steps. This helps reduces the
 
 # bugs/known issues 
 Report bugs or functionality issues to k.geyer2@lancaster.ac.uk
+
+# lab website
+You can read more about our work at www.psychsensorlab.com
