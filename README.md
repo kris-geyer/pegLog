@@ -7,7 +7,7 @@ Geyer, K., Ellis, D. A. and Piwek, L. (2019). A simple location-tracking app for
 
 Download a working version from the <a href="https://play.google.com/store/apps/details?id=peglog.android.location.geyer.peglog1">Google Play Store</a>. This will provide a location update from the most accurate source (GPS, Wi-Fi, etc.) every 5 minutes.
 
-A Terms of Service and Privacy Policy is available <a href="https://psychsensorlab.com/privacy-agreement-for-apps/">here</a>. 
+A Terms of Service and Privacy Policy is available <a href="https://psychsensorlab.wordpress.com/privacy-agreement-for-apps/">here</a>. 
 
 Sample data and supplementary R-code for analysis are available <a href="https://drive.google.com/open?id=1HYb_GsvGLqP8RWOQRV7co_tEamYsHooA">here</a>. 
 
