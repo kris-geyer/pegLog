@@ -50,6 +50,3 @@ To whitelist the application perform the following steps. This helps reduces the
 
 # bugs/known issues 
 Report bugs or functionality issues to k.geyer2@lancaster.ac.uk
-
-# lab website
-You can read more about our work at www.psychsensorlab.com
